@@ -1,5 +1,12 @@
 # spring Boot Docker
-A sample demo app that shows how to deploy a Java Spring Boot App to the DigitalOcean App Platform using Docker
+A demo app that shows how to deploy a Java Spring Boot App to the DigitalOcean App Platform using Docker
+
+Java/Spring boot is not supported out of the box on the App platform hence developers rely on a Dockerfile for deployment. This sometimes could be a daunting challenge as there is little documentation about it and it depends on the level of Docker expertise of the developer.
+
+In this project, you’ll learn how to deploy a Spring Boot app with Docker to the DigitalOcean App platform. You’ll build a Spring Boot app that saves and retrieves messages from a Postgres database, set instructions in the Dockerfile, push the code to a GitHub repository, then configure the application as a DigitalOcean app, attach a PostgreSQL database and deploy the app.
+
+See the Article below for instructions on how to deploy a Java Spring Boot application to the DigitalOcean App Platform.
+
 
 _ _ _
 ## Articles
